@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: all 0.3s ease;
+    /* outline: red solid 1px; */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    margin: 0;
+    background-color: #faeef0; 
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#proposalImage {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.image-container {
+    padding: 20px;
+    width: 70%;
+    height: 70%;
+}
+.image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+#proposalImage {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+#question, #response {
+    transition: opacity 0.5s ease;
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 40px;
+    color: #f76f85;
+    font-family: "Playwrite HR Lijeva", cursive;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+button {
+    font-size: 2em;
+    padding: 15px 40px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s;
+    background-color: #f76f85;
+    color: white;
+    font-family: "Playwrite HR Lijeva", cursive;
+}
+button:hover {
+    border: solid 1px #f76f85;
+    background-color: white;
+    color: #f76f85;
+}
+
