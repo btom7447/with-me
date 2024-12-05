@@ -6,7 +6,6 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     transition: all 0.3s ease;
-    /* outline: red solid 1px; */
 }
 
 body {
@@ -80,4 +79,6 @@ button:hover {
     background-color: white;
     color: #f76f85;
 }
-
+#no:hover {
+    cursor: not-allowed;
+}
