@@ -58,7 +58,7 @@ function goToMoviePage() {
 
   // Optional: Redirect after showing the response for a while
   setTimeout(() => {
-    window.location.href = "https://www.teleparty.com/movie/9919/how-to-lose-a-guy-in-10-days?sessionId=134000e100dacdac"; // Navigate to another page
+    window.location.href = "https://www.teleparty.com/movie/9919/how-to-lose-a-guy-in-10-days?sessionId=05e7839736179c99"; // Navigate to another page
   }, 1000); // 1-second delay
 }
 
